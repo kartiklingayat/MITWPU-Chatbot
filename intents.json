@@ -1,0 +1,29 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "How are you?", "Good morning"],
+      "responses": ["Hello! I'm MITWPU Chatbot. How can I assist you today?"]
+    },
+    {
+      "tag": "courses",
+      "patterns": ["What courses are available?", "List courses", "Programs offered", "Show programs"],
+      "responses": ["MIT-WPU offers B.Tech, MBA, BBA, BCA, MCA, M.Tech, and many more programs."]
+    },
+    {
+      "tag": "admission",
+      "patterns": ["How to apply?", "Admission process", "Apply for MITWPU", "Admission form"],
+      "responses": ["You can apply online at the MIT-WPU official site: https://admissions.mitwpu.edu.in"]
+    },
+    {
+      "tag": "location",
+      "patterns": ["Where is MITWPU?", "College location", "MITWPU address"],
+      "responses": ["MIT-WPU is located in Kothrud, Pune, Maharashtra, India."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you", "Exit"],
+      "responses": ["Goodbye! Have a great day!"]
+    }
+  ]
+}
